@@ -9,7 +9,7 @@ body {
 #article {
   cursor: pointer;
 }
-.input {
+#input {
   background-color: transparent;
   border-top: 0px;
   border-right: 0px;
