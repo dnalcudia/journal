@@ -17,13 +17,16 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>M3 JOURNAL</title>
   </head>
   <body>
     <!-- NAV -->
     <nav
       class="navbar navbar-expand-lg navbar-light"
-      style="background-color: rgb(255, 255, 255);"
+      style="background-color: rgb(255, 255, 255)"
+      data-aos="fade-down"
+      data-aos-duration="3000"
     >
       <div class="container">
         <a class="navbar-brand" href="#">M3 NEW OFFICE CULTURE</a>
@@ -59,7 +62,11 @@
     </nav>
 
     <!-- Title -->
-    <div class="container-fluid border-bottom border-secondary">
+    <div
+      class="container-fluid border-bottom border-secondary"
+      data-aos="fade-down"
+      data-aos-duration="2000"
+    >
       <div class="row d-flex justify-content-around">
         <h1 class="display-1">M3</h1>
         <h1 class="display-1">JOURNAL</h1>
@@ -67,10 +74,18 @@
     </div>
 
     <!-- News grid -->
-    <div class="container border-right border-left border-secondary">
+    <div
+      class="container border-right border-left border-secondary"
+      data-aos="fade-down"
+      data-aos-duration="2000"
+    >
       <div class="row">
         <div class="col-12 col-xl-8">
-          <div class="row border-right border-secondary">
+          <div
+            class="row border-right border-secondary"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
             <div class="container pt-3 pb-3 d-flex justify-content-between">
               <span>題名</span>
               <span>29/11/20</span>
@@ -89,8 +104,16 @@
               </p>
             </div>
           </div>
-          <div class="row border-right border-top border-secondary">
-            <div class="col border-right border-secondary">
+          <div
+            class="row border-right border-top border-secondary"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            <div
+              class="col border-right border-secondary"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <div class="container pt-3 pb-3 d-flex justify-content-between">
                 <span>題名</span>
                 <span>29/11/2020</span>
@@ -108,7 +131,7 @@
                 </p>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="fade-left" data-aos-duration="2000">
               <div class="container pt-3 pb-3 d-flex justify-content-between">
                 <span>題名</span>
                 <span>29/11/20</span>
@@ -128,7 +151,7 @@
           </div>
         </div>
         <div class="col-12 col-xl-4">
-          <div class="row">
+          <div class="row" data-aos="fade-left" data-aos-duration="2000">
             <div
               class="container pt-3 border-top border-secondary pb-3 d-flex justify-content-between"
             >
@@ -148,7 +171,11 @@
               </p>
             </div>
           </div>
-          <div class="row border-top border-bottom border-secondary">
+          <div
+            class="row border-top border-bottom border-secondary"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             <div class="container pt-3 pb-3 d-flex justify-content-between">
               <span>題名</span>
               <span>29/11/20</span>
@@ -164,7 +191,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col" data-aos="fade-right" data-aos-duration="2000">
               <div class="container pt-3 pb-3 d-flex justify-content-between">
                 <span>題名</span>
                 <span>29/11/2020</span>
@@ -181,7 +208,11 @@
                 </p>
               </div>
             </div>
-            <div class="col border-left border-secondary">
+            <div
+              class="col border-left border-secondary"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
               <div class="container pt-3 pb-3 d-flex justify-content-between">
                 <span>題名</span>
                 <span>29/11/2020</span>
@@ -216,7 +247,9 @@
       class="container text-center pt-3 pb-3 border-right border-left border-secondary"
     >
       <li>
-        <span>私を雇ってください！(^◔ᴥ◔^)</span>
+        <span data-aos="fade-down" data-aos-duration="2000"
+          >私を雇ってください！(^◔ᴥ◔^)</span
+        >
       </li>
     </div>
 
@@ -275,5 +308,9 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
